@@ -1,0 +1,122 @@
+.intro-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+  width: 100%;
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+  }
+  .line {
+    height: 0.1rem;
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 1rem;
+  }
+  img {
+    height: 55%;
+    width: 55%;
+    object-fit: cover;
+    padding-left: 5rem;
+  }
+  @media (max-width: 850px) {
+    padding: 3rem 4rem;
+    flex-direction: column;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .line {
+      display: none;
+    }
+    img {
+      padding-left: 0rem;
+      padding-top: 2rem;
+    }
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+.exploring {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+  width: 100%;
+
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 2.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    width: 40rem;
+    padding-left: 2.5rem;
+  }
+  .line {
+    height: 0.1rem;
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 1rem;
+  }
+  img {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    padding-top: 2rem;
+  }
+  @media (max-width: 850px) {
+    padding: 2rem 2rem;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    img {
+      height: 60%;
+      width: 60%;
+    }
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      width: 30rem;
+      font-size: 1rem;
+    }
+  }
+}

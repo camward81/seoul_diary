@@ -1,0 +1,175 @@
+.new-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.bridge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+  width: 100%;
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+  }
+  .line {
+    height: 0.1rem;
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 1rem;
+  }
+  img {
+    height: 55%;
+    width: 55%;
+    object-fit: cover;
+    padding-left: 5rem;
+  }
+  @media (max-width: 850px) {
+    padding: 3rem 4rem;
+    flex-direction: column;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .line {
+      display: none;
+    }
+    img {
+      padding-left: 0rem;
+      padding-top: 2rem;
+    }
+  }
+}
+
+.seoulstation2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 8rem;
+  width: 100%;
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 4rem;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    width: 70%;
+    padding-left: 4rem;
+  }
+  .line {
+    height: 0.1rem;
+    width: 60%;
+    background: whitesmoke;
+    margin-top: 1rem;
+    margin-left: 4rem;
+  }
+  img {
+    height: 55%;
+    width: 55%;
+    object-fit: cover;
+    padding-left: 5rem;
+  }
+  @media (max-width: 850px) {
+    padding: 3rem 4rem;
+    display: block;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+      z-index: 1;
+    }
+    img {
+      float: right;
+    }
+    p {
+      width: 100%;
+    }
+    .line {
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    img {
+      height: 60%;
+      width: 60%;
+    }
+  }
+}
+
+.gangnam {
+  display: flex;
+  padding: 5rem 8rem;
+  width: 100%;
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    width: 70%;
+  }
+  .line {
+    height: 0.1rem;
+    width: 70%;
+    background: whitesmoke;
+    margin-top: 1rem;
+  }
+  img {
+    float: right;
+    height: 55%;
+    width: 55%;
+    object-fit: cover;
+    padding-right: 5rem;
+    order: 2;
+  }
+  @media (max-width: 850px) {
+    padding: 3rem 4rem;
+    display: block;
+    position: relative;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    img {
+      float: left;
+    }
+    p {
+      width: 100%;
+    }
+    .line {
+      display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    img {
+      height: 60%;
+      width: 60%;
+    }
+  }
+}
