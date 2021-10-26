@@ -18,7 +18,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="App">
+    <div className="App" styles={styles}>
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <ScrollTop />
