@@ -129,10 +129,11 @@
   @media (max-width: 450px) {
     p {
       width: 100%;
-      padding: 1rem;
+      padding: 0rem 1rem;
     }
     h1 {
       font-size: 1rem;
+      padding-left: 1rem;
     }
   }
 }
