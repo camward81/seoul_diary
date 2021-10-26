@@ -77,10 +77,11 @@
   @media (max-width: 450px) {
     p {
       width: 100%;
-      padding: 1rem;
+      padding: 0rem 1rem;
     }
     h1 {
       font-size: 1rem;
+      padding-left: 1rem;
     }
   }
 }
@@ -90,7 +91,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // padding-left: 1rem;
 
   h1 {
     font-size: 1.3rem;
