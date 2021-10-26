@@ -13,6 +13,9 @@
   @media (max-width: 850px) {
     font-size: 1.3rem;
   }
+  @media (max-width: 450px) {
+    font-size: 1rem;
+  }
 }
 
 .old-container {
@@ -71,6 +74,15 @@
       padding-bottom: 5rem;
     }
   }
+  @media (max-width: 450px) {
+    p {
+      width: 100%;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 1rem;
+    }
+  }
 }
 
 .night {
@@ -112,6 +124,15 @@
     img {
       height: 70%;
       width: 70%;
+    }
+  }
+  @media (max-width: 450px) {
+    p {
+      width: 100%;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 1rem;
     }
   }
 }
