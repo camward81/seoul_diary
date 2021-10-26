@@ -1,7 +1,7 @@
 import React from "react";
 //Animation
 import { motion } from "framer-motion";
-import { pageAnim, fadeInPhoto } from "../animation";
+import { pageAnim } from "../animation";
 import bridge from "../img/bridge.jpg";
 import seoulstation2 from "../img/seoulstation2.jpg";
 import gangnam from "../img/gangnam.jpg";
@@ -28,21 +28,21 @@ const New = () => {
           </p>
           <div className="line"></div>
         </div>
-        <motion.img
+        <img
           src={bridge}
           alt="bridge"
-          variants={fadeInPhoto}
-          initial="hidden"
-          animate="show"
+          // variants={fadeInPhoto}
+          // initial="hidden"
+          // animate="show"
         />
       </div>
       <div className="seoulstation2">
-        <motion.img
+        <img
           src={seoulstation2}
           alt="seoul station 2"
-          variants={fadeInPhoto}
-          initial="hidden"
-          animate="show"
+          // variants={fadeInPhoto}
+          // initial="hidden"
+          // animate="show"
         />
         <div className="seoulstation2-text">
           <h1>Lorem ipsum</h1>
@@ -58,12 +58,12 @@ const New = () => {
         </div>
       </div>
       <div className="gangnam">
-        <motion.img
+        <img
           src={gangnam}
           alt="gangnam"
-          variants={fadeInPhoto}
-          initial="hidden"
-          animate="show"
+          // variants={fadeInPhoto}
+          // initial="hidden"
+          // animate="show"
         />
         <div className="gangnam-text">
           <h1>Lorem, ipsum dolor</h1>
