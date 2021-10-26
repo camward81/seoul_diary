@@ -3,7 +3,7 @@ import lightbeam from "../img/lightbeam.jpg";
 import gate from "../img/gate.jpg";
 //Animation
 import { motion } from "framer-motion";
-import { pageAnim } from "../animation";
+import { pageAnim, fadeInPhoto } from "../animation";
 
 const Old = () => {
   return (
@@ -24,12 +24,12 @@ const Old = () => {
               commodi iusto rerum ducimus velit iste.
             </p>
           </div>
-          <img
+          <motion.img
             src={gate}
             alt="gate"
-            // variants={fadeInPhoto}
-            // initial="hidden"
-            // animate="show"
+            variants={fadeInPhoto}
+            initial="hidden"
+            animate="show"
           />
         </div>
         <div className="night">
@@ -41,12 +41,12 @@ const Old = () => {
               eaque.
             </p>
           </div>
-          <img
+          <motion.img
             src={lightbeam}
             alt="lightbeam"
-            // variants={fadeInPhoto}
-            // initial="hidden"
-            // animate="show"
+            variants={fadeInPhoto}
+            initial="hidden"
+            animate="show"
           />
         </div>
       </div>
