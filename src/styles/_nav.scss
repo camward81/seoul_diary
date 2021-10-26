@@ -64,4 +64,16 @@ nav {
       font-size: 0.8rem;
     }
   }
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 5rem;
+    }
+    li {
+      padding: 0rem 0.7rem;
+    }
+  }
 }
