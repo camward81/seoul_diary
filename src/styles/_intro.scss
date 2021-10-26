@@ -125,4 +125,10 @@
       font-size: 1rem;
     }
   }
+  @media (max-width: 450px) {
+    padding: 3rem 1rem;
+    h1 {
+      font-size: 1rem;
+    }
+  }
 }
