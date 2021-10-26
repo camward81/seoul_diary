@@ -27,7 +27,7 @@ export const fadeInPhoto = {
   show: {
     opacity: 1,
     transition: {
-      duration: 2,
+      duration: 3,
       ease: "easeIn",
     },
   },
