@@ -4,7 +4,7 @@ import riverview from "../img/riverview.jpg";
 import seoulstation from "../img/seoulstation.jpg";
 //Animation
 import { motion } from "framer-motion";
-import { pageAnim } from "../animation";
+import { pageAnim, fadeInPhoto } from "../animation";
 
 const Intro = () => {
   return (
@@ -29,7 +29,13 @@ const Intro = () => {
             </p>
             <div className="line"></div>
           </div>
-          <img src={riverview} alt="river view" />
+          <motion.img
+            src={riverview}
+            alt="river view"
+            variants={fadeInPhoto}
+            initial="hidden"
+            animate="show"
+          />
         </div>
         <div className="exploring">
           <div className="exploring-text">
@@ -42,7 +48,13 @@ const Intro = () => {
               nesciunt harum dolor molestias voluptates eaque.
             </p>
           </div>
-          <img src={seoulstation} alt="seoul station" />
+          <motion.img
+            src={seoulstation}
+            alt="seoul station"
+            variants={fadeInPhoto}
+            initial="hidden"
+            animate="show"
+          />
         </div>
       </motion.div>
     </div>
