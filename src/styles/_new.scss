@@ -121,6 +121,8 @@
     }
   }
   @media (max-width: 450px) {
+    display: flex;
+    flex-direction: column;
     padding: 3rem 1rem;
     h1 {
       font-size: 1rem;
