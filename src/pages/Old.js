@@ -25,6 +25,7 @@ const Old = () => {
             </p>
           </div>
           <motion.img
+            loading="eager"
             src={gate}
             alt="gate"
             variants={fadeInPhoto}
@@ -42,6 +43,7 @@ const Old = () => {
             </p>
           </div>
           <motion.img
+            loading="eager"
             src={lightbeam}
             alt="lightbeam"
             variants={fadeInPhoto}

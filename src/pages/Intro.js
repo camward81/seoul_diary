@@ -30,6 +30,7 @@ const Intro = () => {
             <div className="line"></div>
           </div>
           <motion.img
+            loading="eager"
             src={riverview}
             alt="river view"
             variants={fadeInPhoto}
@@ -49,6 +50,7 @@ const Intro = () => {
             </p>
           </div>
           <motion.img
+            loading="lazy"
             src={seoulstation}
             alt="seoul station"
             variants={fadeInPhoto}

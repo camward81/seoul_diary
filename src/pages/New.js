@@ -29,6 +29,7 @@ const New = () => {
           <div className="line"></div>
         </div>
         <motion.img
+          loading="eager"
           src={bridge}
           alt="bridge"
           variants={fadeInPhoto}
@@ -38,6 +39,7 @@ const New = () => {
       </div>
       <div className="seoulstation2">
         <motion.img
+          loading="lazy"
           src={seoulstation2}
           alt="seoul station 2"
           variants={fadeInPhoto}
@@ -59,6 +61,7 @@ const New = () => {
       </div>
       <div className="gangnam">
         <motion.img
+          loading="lazy"
           src={gangnam}
           alt="gangnam"
           variants={fadeInPhoto}
