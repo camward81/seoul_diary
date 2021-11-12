@@ -15,6 +15,7 @@ import { AnimatePresence } from "framer-motion";
 import ScrollTop from "./components/ScrollTop";
 
 function App() {
+  
   const location = useLocation();
 
   return (

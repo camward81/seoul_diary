@@ -1,4 +1,5 @@
 import React from "react";
+//Photos
 import lightbeam from "../img/lightbeam.jpg";
 import gate from "../img/gate.jpg";
 //Animation

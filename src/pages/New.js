@@ -2,6 +2,7 @@ import React from "react";
 //Animation
 import { motion } from "framer-motion";
 import { pageAnim, fadeInPhoto } from "../animation";
+//Photos
 import bridge from "../img/bridge.jpg";
 import seoulstation2 from "../img/seoulstation2.jpg";
 import gangnam from "../img/gangnam.jpg";
